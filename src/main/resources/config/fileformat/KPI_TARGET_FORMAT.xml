@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileFormat fileName="" fileType="xls" locale="US">
+	<DataSet description="kpiTargetSetupFormat">
+	
+		<DataSheet sheetName="" sheetIndex="0">
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat4" />
+			
+			<DataRecord listSourceName="dsmTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="dsmCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="dsmName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="1">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="2">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="3">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="4">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="5">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="6">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="7">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="8">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="9">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="10" skipWhenNull="TRUE">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="11" skipWhenNull="TRUE">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="12" skipWhenNull="TRUE">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="13" skipWhenNull="TRUE">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="14" skipWhenNull="TRUE">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="15" skipWhenNull="TRUE">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+	
+		<DataSheet sheetName="" sheetIndex="16" skipWhenNull="TRUE">
+		
+			<DataCell row="6" column="E" dataType="TEXT" fieldName="campaignName" />
+			<DataCell row="7" column="E" dataType="TEXT" fieldName="campaignCode" />
+			
+			<DataCell row="7" column="H" dataType="TEXT" fieldName="listLotCode" />
+			
+		
+			<DataCell row="9" column="E" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="effectiveDate" />
+			<DataCell row="9" column="G" dataType="DATE" dataFormat="dd-MM-yyyy" fieldName="endDate" />
+			
+			<DataCell row="8" column="I" dataType="TEXT" fieldName="rateA" />
+			<DataCell row="8" column="J" dataType="TEXT" fieldName="rateB" />
+			<DataCell row="8" column="K" dataType="TEXT" fieldName="rateC" />
+			<DataCell row="8" column="L" dataType="TEXT" fieldName="rateD" />
+			<DataCell row="8" column="M" dataType="TEXT" fieldName="rateE" />
+			
+			<DataCell row="9" column="I" dataType="TEXT" fieldName="criRateA" />
+			<DataCell row="9" column="J" dataType="TEXT" fieldName="criRateB" />
+			<DataCell row="9" column="K" dataType="TEXT" fieldName="criRateC" />
+			<DataCell row="9" column="L" dataType="TEXT" fieldName="criRateD" />
+			<DataCell row="9" column="M" dataType="TEXT" fieldName="criRateE" />
+			
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat1" />
+			<DataCell row="12" column="E" dataType="TEXT" fieldName="cat2" />
+			<DataCell row="12" column="H" dataType="TEXT" fieldName="cat3" />
+			<DataCell row="12" column="J" dataType="TEXT" fieldName="cat4" />
+			<DataCell row="12" column="L" dataType="TEXT" fieldName="cat5" />
+			
+			<DataRecord listSourceName="supTargetList" beginRow="14" endRow="9999">
+				
+				<DataCell row="1" column="C" dataType="TEXT" fieldName="supCode" />
+				<DataCell row="1" column="D" dataType="TEXT" fieldName="supName" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="F" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat5"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat5"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrCat" beginRow="13" endRow="100" >
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Level" />
+					<DataCell row="1" column="E" dataType="TEXT" fieldName="tsrCat1" />
+					<DataCell row="1" column="H" dataType="TEXT" fieldName="tsrCat2" />
+					<DataCell row="1" column="J" dataType="TEXT" fieldName="tsrCat3" />
+					<DataCell row="1" column="L" dataType="TEXT" fieldName="tsrCat4" />
+				<EndRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+			</DataRecord>
+			
+			<DataRecord listSourceName="tsrTargetList" beginRow="13" endRow="9999">
+				
+				<BeginRecordCondition column="C" comparator="EQ" checkValue="TSR Code" />
+				
+				<DataCell row="1" column="E" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat1"/>
+				<DataCell row="1" column="G" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat1"/>
+				
+				<DataCell row="1" column="H" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat2"/>
+				<DataCell row="1" column="I" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat2"/>
+				
+				<DataCell row="1" column="J" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat3"/>
+				<DataCell row="1" column="K" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat3"/>
+				
+				<DataCell row="1" column="L" dataType="NUMBER" dataFormat="#0.##" fieldName="targetCat4"/>
+				<DataCell row="1" column="M" dataType="NUMBER" dataFormat="#0.##" fieldName="weightCat4"/>
+				
+				<DataCell row="1" column="N" dataType="NUMBER" dataFormat="#0.##" fieldName="totalWeight"/>
+								
+				<EndRecordCondition column="C" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+		
+	</DataSet>
+</FileFormat>

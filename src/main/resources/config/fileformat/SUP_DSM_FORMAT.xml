@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileFormat fileName="" fileType="xlsx" locale="US">
+	<DataSet description="supDsm">
+		<DataSheet sheetName="" sheetIndex="0">
+
+			<DataRecord listSourceName="dataList" beginRow="2" endRow="999">
+				
+				<DataCell row="1" column="A" dataType="TEXT" fieldName="tsrCode"/>
+				<DataCell row="1" column="B" dataType="TEXT" fieldName="uplineCode" />
+				<DataCell row="1" column="C" dataType="DATE" dataFormat="dd/MM/yyyy" fieldName="startDate" />
+				<DataCell row="1" column="D" dataType="DATE" dataFormat="dd/MM/yyyy" fieldName="endDate" />
+		
+				<EndRecordCondition column="A" comparator="BLANK" checkValue="" />
+				
+			</DataRecord>
+		</DataSheet>
+		
+	</DataSet>
+</FileFormat>
