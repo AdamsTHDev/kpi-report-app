@@ -54,7 +54,7 @@ public class ImportJob {
 			DataImporter importer = new SupDsmImporter();
 			importer.importData(dir, processDate);
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 		
 		logger.info("#### Finish Import SUP DSM");
@@ -67,7 +67,7 @@ public class ImportJob {
 			DataImporter importer = new KpiTargetSetupImporter();
 			importer.importData(dir, processDate);
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 		
 		logger.info("#### Finish Import KPI Target Setup");
@@ -85,7 +85,7 @@ public class ImportJob {
 				importer = DataImporterFactory.getDataImporter(dir);
 				importer.importData(dir);
 			} catch(Exception e) {
-				e.printStackTrace();
+				logger.error(e.getMessage(), e);
 			} finally {
 				
 			}
