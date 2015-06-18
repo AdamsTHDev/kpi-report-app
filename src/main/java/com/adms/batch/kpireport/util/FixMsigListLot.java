@@ -3,9 +3,6 @@ package com.adms.batch.kpireport.util;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
-import org.hibernate.criterion.DetachedCriteria;
-import org.hibernate.criterion.Order;
-import org.hibernate.criterion.Restrictions;
 
 import com.adms.entity.KpiCategorySetup;
 import com.adms.kpireport.service.KpiCategorySetupService;
@@ -33,20 +30,13 @@ public class FixMsigListLot {
 	 */
 	public String getFixMisgListLotDelim(String processDate) throws Exception {
 		if(resultMSIG == null || StringUtils.isBlank(resultMSIG)) {
-			String function = "YEAR(effectiveDate) = " + processDate.substring(0, 4) + " ";
 			
-			DetachedCriteria criteria = DetachedCriteria.forClass(KpiCategorySetup.class);
-			criteria.add(Restrictions.sqlRestriction(function));
-			criteria.add(Restrictions.isNotNull("listLotCode"));
-			criteria.addOrder(Order.asc("effectiveDate"));
-			
-//			String hql = " from KpiCategorySetup d "
-//					+ " where 1 = 1 "
-//					+ " and d.listLotCode is not null "
-//					+ " and CONVERT(nvarchar(4), d.effectiveDate, 112) = ? "
-//					+ " order by d.effectiveDate ";
-//			List<KpiCategorySetup> list = kpiCategorySetupService.findByHql(hql, processDate.substring(0, 4));
-			List<KpiCategorySetup> list = kpiCategorySetupService.findByCriteria(criteria);
+			String hql = " from KpiCategorySetup d "
+					+ " where 1 = 1 "
+					+ " and d.listLotCode is not null "
+					+ " and CONVERT(nvarchar(4), d.effectiveDate, 112) = ? "
+					+ " order by d.effectiveDate ";
+			List<KpiCategorySetup> list = kpiCategorySetupService.findByHql(hql, processDate.substring(0, 4));
 			
 			for(KpiCategorySetup k : list) {
 				if(!resultMSIG.contains(k.getListLotCode())) {
