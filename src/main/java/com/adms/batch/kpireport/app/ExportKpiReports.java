@@ -8,13 +8,13 @@ public class ExportKpiReports {
 
 	public static void main(String[] args) {
 		try {
-//			String processDate = args[0];
-//			String outPath = args[1];
+			String processDate = args[0];
+			String outPath = args[1];
 			
-			logger.setLogFileName("D:/temp/log-logTime.log");
+			logger.setLogFileName(args[2]);
 			
-			String processDate = "20150531";
-			String outPath = "d:/temp/kpi";
+//			String processDate = "20150531";
+//			String outPath = "d:/temp/kpi";
 			
 			ExportJob.getInstance(processDate).exportKpiReports(outPath);
 		} catch(Exception e) {
