@@ -1,5 +1,6 @@
 package com.adms.batch.kpireport.service.impl;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -589,7 +590,7 @@ public class KpiReportExporter implements ReportExporter {
 			
 			List<KpiCategorySetup> kpiCategories = getKpiCategory(supCode, "SUP", campaignCode, listLotCode, DateUtil.convStringToDate("yyyyMMdd", yearMonth + "01"), end.getTime());
 			if(kpiCategories.isEmpty()) {
-				logger.error("No KPI Category for this SUP: " + supCode + " | campaignCode: " + campaignCode + " | listLotCode: " + listLotCode + " effectiveDate: " + DateUtil.convStringToDate("yyyyMMdd", yearMonth + "01") + " | endDate: " + end.getTime());
+				logger.warn("No KPI Category for this SUP: " + supCode + " | campaignCode: " + campaignCode + " | listLotCode: " + listLotCode + " effectiveDate: " + DateUtil.convStringToDate("yyyyMMdd", yearMonth + "01") + " | endDate: " + end.getTime());
 				skip = true;
 			}
 			
@@ -778,7 +779,7 @@ public class KpiReportExporter implements ReportExporter {
 		
 		List<KpiCategorySetup> kpiCategories = getKpiCategory(null, "TSR", campaignCode, listLotCode, DateUtil.convStringToDate("yyyyMMdd", yearMonth + "01"), end.getTime());
 		if(kpiCategories.isEmpty()) {
-			logger.error("No KPI Category for this TSR: " + tsrCode + " | campaignCode: " + campaignCode + " | listLotCode: " + listLotCode + " effectiveDate: " + DateUtil.convStringToDate("yyyyMMdd", yearMonth + "01") + " | endDate: " + end.getTime());
+			logger.warn("No KPI Category for this TSR: " + tsrCode + " | campaignCode: " + campaignCode + " | listLotCode: " + listLotCode + " effectiveDate: " + DateUtil.convStringToDate("yyyyMMdd", yearMonth + "01") + " | endDate: " + end.getTime());
 			skip = true;
 		}
 		
@@ -1204,7 +1205,7 @@ public class KpiReportExporter implements ReportExporter {
 			
 			try {
 				FileUtil.getInstance().createDirectory(outPath);
-				String fullPath = outPath + "/" + fileName;
+				String fullPath = outPath + File.separatorChar + fileName;
 				
 	//			<!-- remove template -->
 				for(int i = 0; i < numOfTemplates; i++) wb.removeSheetAt(0);
