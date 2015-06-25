@@ -63,7 +63,7 @@ public class TsrTrackingImporter implements DataImporter {
 			}
 			
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		} finally {
 			try { fileformatStream.close(); } catch(Exception e) {}
 			try { wbStream.close(); } catch(Exception e) {}
@@ -127,12 +127,12 @@ public class TsrTrackingImporter implements DataImporter {
 					saveTsrTracking(tsr, fullName, trackingDate, listLotCode, workday, listUsed, complete, hours, talkTime, newUsed, totalPolicy);
 					
 				} catch(Exception e) {
-					e.printStackTrace();
+					logger.error(e.getMessage(), e);
 				}
 			}
 			
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 	}
 	
@@ -237,7 +237,7 @@ public class TsrTrackingImporter implements DataImporter {
 				return temp;
 			}
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 		
 		return null;

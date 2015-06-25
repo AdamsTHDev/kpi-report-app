@@ -14,10 +14,13 @@ import com.adms.imex.excelformat.DataHolder;
 import com.adms.imex.excelformat.ExcelFormat;
 import com.adms.kpireport.service.TsrHierarchyService;
 import com.adms.kpireport.service.TsrService;
+import com.adms.utils.Logger;
 
 public class SupDsmImporter implements DataImporter {
 	
 	private final String LOGIN_USER = "SUP_DSM_IMPORTER";
+	
+	private static Logger logger = Logger.getLogger();
 
 	private TsrHierarchyService tsrHierarchyService = (TsrHierarchyService) AppConfig.getInstance().getBean("tsrHierarchyService");
 	private TsrService tsrService = (TsrService) AppConfig.getInstance().getBean("tsrService");
@@ -63,7 +66,7 @@ public class SupDsmImporter implements DataImporter {
 			}
 			
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		} finally {
 			try { is.close(); } catch(Exception e) {}
 			try { formatStream.close(); } catch(Exception e) {}

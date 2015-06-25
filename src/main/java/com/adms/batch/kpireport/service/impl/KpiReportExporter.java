@@ -81,7 +81,7 @@ public class KpiReportExporter implements ReportExporter {
 			logicExport(yyyyMM, msigListLots);
 			
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 	}
 	
@@ -95,7 +95,7 @@ public class KpiReportExporter implements ReportExporter {
 			
 			exportKpiReport(yyyyMM, fixListLotCodeDelim, kpiResults, kpiRetentions);
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 	}
 	
@@ -143,7 +143,7 @@ public class KpiReportExporter implements ReportExporter {
 			processKpiReportForSupGradeSummary(yyyyMM, fixListLotCodeDelim);
 			
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 	}
 	
@@ -188,7 +188,7 @@ public class KpiReportExporter implements ReportExporter {
 			writeout(wb, outPath, "SUPs Grade Summary_" + yearMonth +  ".xlsx", numOfTemplates);
 			
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 	}
 	
@@ -274,9 +274,9 @@ public class KpiReportExporter implements ReportExporter {
 			
 			
 		} catch (InvalidFormatException | IOException e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		} finally {
 			try {wb.close();} catch(Exception e) {}
 			try {templateStream.close();} catch(Exception e) {}
@@ -332,7 +332,7 @@ public class KpiReportExporter implements ReportExporter {
 			writeout(wb, outPath, sheetName + "_" + yearMonth + ".xlsx", numOfTemplates);
 			
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		} finally {
 			try {templateStream.close();} catch(Exception e) {}
 			try {wb.close();} catch(Exception e) {};
@@ -1214,7 +1214,7 @@ public class KpiReportExporter implements ReportExporter {
 				wb.write(os);
 				logger.info("Writed to: " + fullPath);
 			} catch(Exception e) {
-				e.printStackTrace();
+				logger.error(e.getMessage(), e);
 			} finally {
 				try {os.close();} catch (IOException e) {}
 				try {wb.close(); wb = null;} catch (IOException e) {}

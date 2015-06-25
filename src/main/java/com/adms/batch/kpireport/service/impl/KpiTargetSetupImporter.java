@@ -65,12 +65,12 @@ public class KpiTargetSetupImporter implements DataImporter {
 					logicKpiSetup(sheetName.equalsIgnoreCase(DSM) ? DSM : SUP, sheet);
 					
 				} catch(Exception e) {
-					e.printStackTrace();
+					logger.error(e.getMessage(), e);
 				}
 			}
 			
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		} finally {
 			try {is.close();} catch (IOException e) {}
 			try {fileFormatStream.close();} catch (IOException e) {}

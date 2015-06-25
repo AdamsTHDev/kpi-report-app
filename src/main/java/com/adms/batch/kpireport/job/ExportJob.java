@@ -30,7 +30,7 @@ public class ExportJob {
 			ReportExporter export = new KpiReportExporter();
 			export.exportExcel(destination, processDate);
 		} catch(Exception e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 		
 		logger.info("### Finish Export KPI Reports ###");
